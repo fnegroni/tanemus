@@ -1,0 +1,27 @@
+Tanenbaum Emulators
+===================
+Filippo Erik Negroni
+:Revision: 1
+:Date: 2011-01-09
+
+A collection of emulators written in C99 to help the study of Tanenbaum's book Structured Computer Organization, Third Edition.
+
+Introduction
+------------
+Although dated, Tanenbaum's book is a very good introduction to the layered architectured of modern computers.
+
+These emulators, written in C99, aim to help the reader to study the book and understand the various layers by allowing execution of the simplified architectures as detailed by the author.
+
+Chapter 3: The digital logic level
+----------------------------------
+
+In chapter 3, Tanenbaums explains to some detail how the digital logic level is understood and designed.
+
+These emulators allow the reader to follow the logic of signals and permit a closer understanding of the performance and design issues of the example architectures.
+
+dll-pc
+~~~~~~
+
+In `dll-pc/`, you will find code that shows a simplified PC architecture using a simplified PC bus.
+Executing the executable should produce a log, which if analysed, allows to follow some logics.
+The example traces the execution of a hello world program running on the architecture.
